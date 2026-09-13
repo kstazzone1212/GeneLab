@@ -1,0 +1,145 @@
+{
+  "brand.tagline": "Molecular research, made traceable",
+  "nav.home": "Home",
+  "nav.genes": "Gene explorer",
+  "nav.variants": "Variant explorer",
+  "nav.literature": "Literature",
+  "nav.lab": "Virtual lab",
+  "nav.assistant": "AI assistant",
+  "nav.about": "About & methodology",
+  "nav.sources": "Sources",
+  "nav.primary": "Primary navigation",
+  "home.eyebrow": "Scientific exploration platform",
+  "home.title": "Follow the evidence from gene to insight.",
+  "home.description": "GeneLab is a bilingual foundation for exploring molecular genetics, connecting traceable scientific sources with transparent computational analysis.",
+  "home.searchPlaceholder": "Search genes, variants, proteins, or literature",
+  "home.searchAction": "Start exploring",
+  "home.status": "Live human gene explorer",
+  "home.workflow": "A connected scientific workflow",
+  "home.workflowDescription": "Move from a biological entity to its evidence, then make the computational step explicit.",
+  "workflow.search": "Search",
+  "workflow.explore": "Explore",
+  "workflow.analyze": "Analyze",
+  "workflow.evidence": "Read the evidence",
+  "workflow.interpret": "Interpret",
+  "home.noticeTitle": "Built for learning and research support",
+  "home.notice": "GeneLab is not a diagnostic system, a substitute for genetic counseling, laboratory validation, or peer-reviewed scientific judgment.",
+  "status.planned": "Planned for a future phase",
+  "status.notImplemented": "Not implemented yet",
+  "theme.toggle": "Toggle theme",
+  "language.switch": "Switch language",
+  "footer.phase": "Human gene records retrieved from public scientific sources",
+  "page.comingSoon": "This section is part of the planned architecture and will be implemented in a later phase.",
+  "page.backHome": "Return home"
+  ,"explorer.demoBanner": "DEMO DATA - NOT LIVE SCIENTIFIC DATABASE DATA"
+  ,"explorer.liveData": "LIVE SCIENTIFIC DATA"
+  ,"explorer.searchTitle": "Explore any human gene"
+  ,"explorer.searchHelp": "Search connected scientific databases by human symbol, name, alias, NCBI Gene ID, or Ensembl Gene ID."
+  ,"explorer.searchPlaceholder": "Human gene symbol or identifier"
+  ,"explorer.search": "Search"
+  ,"explorer.results": "Gene results"
+  ,"explorer.noResults": "No human gene was found for this query."
+  ,"explorer.selectGene": "Select a gene to inspect its structured record."
+  ,"explorer.gene": "Gene"
+  ,"explorer.variant": "Variant"
+  ,"explorer.identity": "Identity"
+  ,"explorer.organism": "Organism"
+  ,"explorer.aliases": "Aliases"
+  ,"explorer.externalIds": "External identifiers"
+  ,"explorer.geneType": "Gene type"
+  ,"explorer.mapLocation": "Cytogenetic location"
+  ,"explorer.recordStatus": "NCBI record status"
+  ,"explorer.createdAt": "Record created"
+  ,"explorer.updatedAt": "Record updated"
+  ,"explorer.designations": "Other designations"
+  ,"explorer.genomicAccessions": "Genomic accessions"
+  ,"explorer.genomics": "Genomic information"
+  ,"explorer.assembly": "Genome assembly"
+  ,"explorer.location": "Location"
+  ,"explorer.function": "Function"
+  ,"explorer.transcripts": "Transcripts"
+  ,"explorer.proteins": "Proteins"
+  ,"explorer.variants": "Variants"
+  ,"explorer.noTranscripts": "No transcript information was returned from the selected source."
+  ,"explorer.noProteins": "No protein information was returned from the selected source."
+  ,"explorer.noVariants": "No variant records were returned from the selected source."
+  ,"explorer.variantFilters": "Variant filters"
+  ,"explorer.allTypes": "All variant types"
+  ,"explorer.allConsequences": "All consequences"
+  ,"explorer.type": "Variant type"
+  ,"explorer.consequence": "Molecular consequence"
+  ,"explorer.significance": "Clinical significance"
+  ,"explorer.transcript": "Transcript"
+  ,"explorer.reviewStatus": "Review status"
+  ,"explorer.condition": "Condition"
+  ,"explorer.variantId": "Variant ID"
+  ,"explorer.gene": "Gene"
+  ,"explorer.genomicChange": "Genomic change"
+  ,"explorer.transcriptChange": "Transcript change"
+  ,"explorer.proteinChange": "Protein change"
+  ,"explorer.frequency": "Allele frequency"
+  ,"explorer.evidence": "Evidence and sources"
+  ,"explorer.clinicalNote": "Clinical interpretations are database records. They may differ between submissions and change over time."
+  ,"explorer.details": "View details"
+  ,"explorer.exploreVariants": "Explore variants"
+  ,"explorer.variantExplorerTitle": "Variant explorer"
+  ,"explorer.variantExplorerHelp": "Review ClinVar records associated with this gene and filter them by molecular consequence or variant type."
+  ,"explorer.variantSearchTitle": "Search a gene or variant"
+  ,"explorer.variantSearchPlaceholder": "Gene symbol, NCBI Gene ID, VCV accession, or rsID"
+  ,"explorer.variantSearchHelp": "Enter a human gene to list its ClinVar variants, or search a ClinVar variant accession directly."
+  ,"explorer.variantSearchNoResult": "No gene or ClinVar variant record was found for this query."
+  ,"explorer.loading": "Loading scientific record..."
+  ,"explorer.backGene": "Back to gene"
+  ,"explorer.noData": "The requested record could not be reached."
+  ,"explorer.fetchError": "Gene data could not be retrieved from the scientific database."
+  ,"explorer.notFound": "No gene was found in the scientific database."
+  ,"explorer.notFoundFor": "{gene} could not be found in the selected scientific databases."
+  ,"explorer.rateLimited": "The scientific database is temporarily rate-limited. Please try again shortly."
+  ,"explorer.source": "Source"
+  ,"explorer.identifier": "Identifier"
+  ,"explorer.evidenceType": "Evidence type"
+  ,"explorer.retrieved": "Retrieved"
+  ,"explorer.notes": "Notes and limitations"
+  ,"explorer.openSource": "Open source"
+  ,"explorer.comingNext": "Coming next"
+  ,"explorer.comingNextText": "Literature discovery, the Virtual Molecular Lab, and the AI research assistant remain planned for later phases."
+  ,"source.primary": "Primary literature"
+  ,"source.curated": "Curated database"
+  ,"source.reference": "Reference database"
+  ,"source.prediction": "Computational prediction"
+  ,"source.ai": "AI-generated explanation"
+  ,"source.user": "User-provided information"
+  ,"literature.title": "Scientific literature"
+  ,"literature.help": "Search PubMed records by gene, variant, topic, or identifier. Results remain linked to their source records."
+  ,"literature.placeholder": "Search PubMed"
+  ,"literature.empty": "No PubMed records were returned for this query."
+  ,"literature.open": "Open PubMed record"
+  ,"literature.authors": "Authors"
+  ,"literature.journal": "Journal"
+  ,"lab.title": "Virtual molecular lab"
+  ,"lab.help": "Run local educational sequence calculations. These results are computational and do not replace validated laboratory protocols."
+  ,"lab.sequence": "DNA, RNA, or protein sequence (FASTA accepted)"
+  ,"lab.analyze": "Analyze sequence"
+  ,"lab.length": "Length"
+  ,"lab.gc": "GC percentage"
+  ,"lab.alphabet": "Detected alphabet"
+  ,"lab.transcription": "RNA transcription"
+  ,"lab.reverseComplement": "Reverse complement"
+  ,"lab.translation": "Translation"
+  ,"lab.invalid": "The sequence alphabet could not be determined. Paste only a DNA, RNA, protein, or FASTA sequence."
+  ,"assistant.title": "Evidence research assistant"
+  ,"assistant.help": "Retrieve a gene record and organize verified fields for orientation. This tool does not generate clinical interpretations or unsupported scientific claims."
+  ,"assistant.placeholder": "Human gene symbol or identifier"
+  ,"assistant.search": "Retrieve evidence"
+  ,"assistant.verified": "Retrieved scientific information"
+  ,"assistant.limits": "Limitations"
+  ,"assistant.limitText": "This view organizes retrieved database fields. It is not an AI authority, diagnosis, or substitute for scientific judgment."
+  ,"about.title": "About and methodology"
+  ,"about.mission": "GeneLab connects human gene records, variants, proteins, computation, and scientific sources in a transparent educational workspace."
+  ,"about.method": "Methodology"
+  ,"about.methodText": "Records are retrieved through public scientific APIs, normalized into typed models, and displayed with source identifiers and retrieval dates. Missing fields remain unavailable rather than being inferred."
+  ,"about.safety": "Scientific safety"
+  ,"about.safetyText": "GeneLab is for education and research support. It is not a diagnostic system, clinical interpretation service, genetic counseling service, or laboratory replacement."
+  ,"sources.title": "Scientific sources"
+  ,"sources.help": "Official databases connected or prepared for GeneLab. Each source has a distinct scope and evidence role."
+}

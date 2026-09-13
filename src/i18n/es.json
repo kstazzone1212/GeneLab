@@ -1,0 +1,144 @@
+{
+  "brand.tagline": "Investigacion molecular trazable",
+  "nav.home": "Inicio",
+  "nav.genes": "Explorador de genes",
+  "nav.variants": "Explorador de variantes",
+  "nav.literature": "Literatura",
+  "nav.lab": "Laboratorio virtual",
+  "nav.assistant": "Asistente de IA",
+  "nav.about": "Acerca de y metodologia",
+  "nav.sources": "Fuentes",
+  "nav.primary": "Navegacion principal",
+  "home.eyebrow": "Plataforma de exploracion cientifica",
+  "home.title": "Sigue la evidencia del gen a la comprension.",
+  "home.description": "GeneLab es una base bilingue para explorar genetica molecular, conectar fuentes cientificas trazables y hacer explicito el analisis computacional.",
+  "home.searchPlaceholder": "Busca genes, variantes, proteinas o literatura",
+  "home.searchAction": "Comenzar a explorar",
+  "home.status": "Explorador live de genes humanos",
+  "home.workflow": "Un flujo cientifico conectado",
+  "home.workflowDescription": "Pasa de una entidad biologica a su evidencia y haz explicito el paso computacional.",
+  "workflow.search": "Buscar",
+  "workflow.explore": "Explorar",
+  "workflow.analyze": "Analizar",
+  "workflow.evidence": "Leer la evidencia",
+  "workflow.interpret": "Interpretar",
+  "home.noticeTitle": "Pensado para aprendizaje y apoyo a la investigacion",
+  "home.notice": "GeneLab no es un sistema diagnostico ni sustituye el asesoramiento genetico, la validacion de laboratorio o el criterio cientifico revisado por pares.",
+  "status.planned": "Planeado para una fase futura",
+  "status.notImplemented": "Aun no implementado",
+  "theme.toggle": "Cambiar tema",
+  "language.switch": "Cambiar idioma",
+  "footer.phase": "Registros humanos recuperados de fuentes cientificas publicas",
+  "page.comingSoon": "Esta seccion forma parte de la arquitectura planificada y se implementara en una fase posterior.",
+  "page.backHome": "Volver al inicio"
+  ,"explorer.demoBanner": "DATOS DEMO - NO SON DATOS DE UNA BASE CIENTIFICA EN VIVO"
+  ,"explorer.liveData": "DATOS CIENTIFICOS EN VIVO"
+  ,"explorer.searchTitle": "Explora cualquier gen humano"
+  ,"explorer.searchHelp": "Busca en bases cientificas conectadas por simbolo, nombre, alias, ID de NCBI Gene o ID de gen Ensembl."
+  ,"explorer.searchPlaceholder": "Simbolo o identificador de gen humano"
+  ,"explorer.search": "Buscar"
+  ,"explorer.results": "Resultados de genes"
+  ,"explorer.noResults": "No se encontro ningun gen humano para esta consulta."
+  ,"explorer.selectGene": "Selecciona un gen para consultar su registro estructurado."
+  ,"explorer.gene": "Gen"
+  ,"explorer.variant": "Variante"
+  ,"explorer.identity": "Identidad"
+  ,"explorer.organism": "Organismo"
+  ,"explorer.aliases": "Aliases"
+  ,"explorer.externalIds": "Identificadores externos"
+  ,"explorer.geneType": "Tipo de gen"
+  ,"explorer.mapLocation": "Ubicacion citogenetica"
+  ,"explorer.recordStatus": "Estado del registro NCBI"
+  ,"explorer.createdAt": "Creacion del registro"
+  ,"explorer.updatedAt": "Actualizacion del registro"
+  ,"explorer.designations": "Otras designaciones"
+  ,"explorer.genomicAccessions": "Accesiones genomicas"
+  ,"explorer.genomics": "Informacion genomica"
+  ,"explorer.assembly": "Ensamblaje genomico"
+  ,"explorer.location": "Ubicacion"
+  ,"explorer.function": "Funcion"
+  ,"explorer.transcripts": "Transcritos"
+  ,"explorer.proteins": "Proteinas"
+  ,"explorer.variants": "Variantes"
+  ,"explorer.noTranscripts": "No se devolvio informacion de transcritos desde la fuente seleccionada."
+  ,"explorer.noProteins": "No se devolvio informacion de proteinas desde la fuente seleccionada."
+  ,"explorer.noVariants": "No se devolvieron registros de variantes desde la fuente seleccionada."
+  ,"explorer.variantFilters": "Filtros de variantes"
+  ,"explorer.allTypes": "Todos los tipos de variante"
+  ,"explorer.allConsequences": "Todas las consecuencias"
+  ,"explorer.type": "Tipo de variante"
+  ,"explorer.consequence": "Consecuencia molecular"
+  ,"explorer.significance": "Significado clinico"
+  ,"explorer.transcript": "Transcrito"
+  ,"explorer.reviewStatus": "Estado de revision"
+  ,"explorer.condition": "Condicion"
+  ,"explorer.variantId": "ID de variante"
+  ,"explorer.genomicChange": "Cambio genomico"
+  ,"explorer.transcriptChange": "Cambio en transcrito"
+  ,"explorer.proteinChange": "Cambio en proteina"
+  ,"explorer.frequency": "Frecuencia alelica"
+  ,"explorer.evidence": "Evidencia y fuentes"
+  ,"explorer.clinicalNote": "Las interpretaciones clinicas son registros de bases de datos. Pueden diferir entre envios y cambiar con el tiempo."
+  ,"explorer.details": "Ver detalles"
+  ,"explorer.exploreVariants": "Explorar variantes"
+  ,"explorer.variantExplorerTitle": "Explorador de variantes"
+  ,"explorer.variantExplorerHelp": "Consulta los registros de ClinVar asociados a este gen y filtralos por consecuencia molecular o tipo de variante."
+  ,"explorer.variantSearchTitle": "Buscar un gen o una variante"
+  ,"explorer.variantSearchPlaceholder": "Simbolo de gen, ID NCBI, accession VCV o rsID"
+  ,"explorer.variantSearchHelp": "Escribe un gen humano para listar sus variantes ClinVar o busca directamente una accession de variante."
+  ,"explorer.variantSearchNoResult": "No se encontro ningun gen ni registro de variante ClinVar para esta consulta."
+  ,"explorer.loading": "Cargando registro cientifico..."
+  ,"explorer.backGene": "Volver al gen"
+  ,"explorer.noData": "No se pudo acceder al registro solicitado."
+  ,"explorer.fetchError": "No se pudieron recuperar los datos del gen desde la base de datos cientifica."
+  ,"explorer.notFound": "No se encontro el gen en la base de datos cientifica."
+  ,"explorer.notFoundFor": "No se pudo encontrar {gene} en las bases de datos cientificas seleccionadas."
+  ,"explorer.rateLimited": "La base de datos cientifica limita temporalmente las solicitudes. Intentalo de nuevo en unos instantes."
+  ,"explorer.source": "Fuente"
+  ,"explorer.identifier": "Identificador"
+  ,"explorer.evidenceType": "Tipo de evidencia"
+  ,"explorer.retrieved": "Fecha de consulta"
+  ,"explorer.notes": "Notas y limitaciones"
+  ,"explorer.openSource": "Abrir fuente"
+  ,"explorer.comingNext": "Proximamente"
+  ,"explorer.comingNextText": "La literatura, el Laboratorio Molecular Virtual y el asistente de investigacion con IA quedan planificados para fases posteriores."
+  ,"source.primary": "Literatura primaria"
+  ,"source.curated": "Base de datos curada"
+  ,"source.reference": "Base de datos de referencia"
+  ,"source.prediction": "Prediccion computacional"
+  ,"source.ai": "Explicacion generada por IA"
+  ,"source.user": "Informacion aportada por el usuario"
+  ,"literature.title": "Literatura cientifica"
+  ,"literature.help": "Busca registros de PubMed por gen, variante, tema o identificador. Los resultados permanecen vinculados a sus fuentes."
+  ,"literature.placeholder": "Buscar en PubMed"
+  ,"literature.empty": "No se devolvieron registros de PubMed para esta consulta."
+  ,"literature.open": "Abrir registro PubMed"
+  ,"literature.authors": "Autores"
+  ,"literature.journal": "Revista"
+  ,"lab.title": "Laboratorio molecular virtual"
+  ,"lab.help": "Ejecuta calculos educativos locales sobre secuencias. Estos resultados son computacionales y no sustituyen protocolos de laboratorio validados."
+  ,"lab.sequence": "Secuencia de ADN, ARN o proteina (se acepta FASTA)"
+  ,"lab.analyze": "Analizar secuencia"
+  ,"lab.length": "Longitud"
+  ,"lab.gc": "Porcentaje GC"
+  ,"lab.alphabet": "Alfabeto detectado"
+  ,"lab.transcription": "Transcripcion de ARN"
+  ,"lab.reverseComplement": "Complemento inverso"
+  ,"lab.translation": "Traduccion"
+  ,"lab.invalid": "No se pudo determinar el alfabeto. Pega una secuencia de ADN, ARN, proteina o FASTA."
+  ,"assistant.title": "Asistente de evidencia"
+  ,"assistant.help": "Recupera un registro de gen y organiza sus campos verificados. No genera interpretaciones clinicas ni afirmaciones cientificas no respaldadas."
+  ,"assistant.placeholder": "Simbolo o identificador de gen humano"
+  ,"assistant.search": "Recuperar evidencia"
+  ,"assistant.verified": "Informacion cientifica recuperada"
+  ,"assistant.limits": "Limitaciones"
+  ,"assistant.limitText": "Esta vista organiza campos recuperados de bases de datos. No es una autoridad de IA, diagnostico ni sustituto del criterio cientifico."
+  ,"about.title": "Acerca de y metodologia"
+  ,"about.mission": "GeneLab conecta registros de genes humanos, variantes, proteinas, computacion y fuentes cientificas en un espacio educativo transparente."
+  ,"about.method": "Metodologia"
+  ,"about.methodText": "Los registros se recuperan mediante APIs cientificas publicas, se normalizan en modelos tipados y se muestran con identificadores de fuente y fechas de consulta. Los campos ausentes permanecen sin disponibilidad."
+  ,"about.safety": "Seguridad cientifica"
+  ,"about.safetyText": "GeneLab sirve para educacion y apoyo a la investigacion. No es un sistema diagnostico, servicio de interpretacion clinica, asesoramiento genetico ni reemplazo del laboratorio."
+  ,"sources.title": "Fuentes cientificas"
+  ,"sources.help": "Bases oficiales conectadas o preparadas para GeneLab. Cada fuente tiene un alcance y un papel de evidencia diferente."
+}
