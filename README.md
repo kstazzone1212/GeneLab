@@ -59,6 +59,12 @@ Local computational tools for educational exploration:
 - DNA transcription to RNA
 - Reverse complement
 - Basic codon translation
+- ORF detection on both strands
+- Restriction-site detection
+- Primer candidates with GC, melting temperature, and warnings
+- Sequence comparison with identity percentage and positional differences
+- Reproducibility notebook records with notes and JSON export
+- Up to 20 custom field/value data points per notebook entry
 
 The calculations are pure TypeScript functions, separated from the UI and covered by unit tests.
 
@@ -75,6 +81,8 @@ The current assistant organizes retrieved gene fields and their sources. It is i
 - Semantic landmarks and screen-reader labels.
 - Light and dark themes.
 - Reduced-motion support.
+- Local workspace notes and experiment history.
+- Optional email/password account synchronization without Google or Apple OAuth.
 
 ## Scientific Sources
 
@@ -109,7 +117,7 @@ Database assertions may be incomplete, change over time, or differ between submi
 - GitHub Actions
 - GitHub Pages
 
-The project deliberately avoids a backend and frontend API keys during this phase. Public APIs are accessed through provider-specific service adapters, not directly from UI components.
+The project includes an optional Node.js API for accounts and notebook synchronization. Public scientific APIs are still accessed through provider-specific service adapters, not directly from UI components.
 
 ## Architecture
 
@@ -125,6 +133,7 @@ src/
     liveVariants.ts       Live variant service
     liveLiterature.ts     Live literature service
   utils/                  Pure sequence and data-transformation functions
+  server.mjs              Optional account and experiment synchronization API
   styles/                 Theme, responsive, and accessibility styles
   main.ts                 Hash routing and application shell
 docs/
@@ -156,6 +165,20 @@ npm install
 npm run dev
 ```
 
+To enable synchronization between devices, run the API in a second terminal:
+
+```bash
+npm run api
+```
+
+The local API listens on `http://localhost:8787` and stores data in `.data/genelab.json`. For a deployed frontend, set `VITE_API_URL` to the public API URL when building:
+
+```bash
+VITE_API_URL=https://api.example.com/api npm run build
+```
+
+The local account mode remains available when the API is offline. Production deployments should add HTTPS, a persistent database, secure cookies or rotating tokens, email verification, password recovery, rate limiting, backups, and secret management.
+
 Open the local URL shown by Vite. To run the production build locally:
 
 ```bash
@@ -174,6 +197,8 @@ Deployment is automated by [`.github/workflows/deploy-pages.yml`](.github/workfl
 4. Push to `main` or run the workflow manually from the **Actions** tab.
 5. GitHub Actions runs tests, builds `dist/`, and deploys the result.
 
+To enable cloud synchronization in the Pages build, create a repository variable named `VITE_API_URL` under **Settings -> Secrets and variables -> Actions -> Variables**. Its value must be the public URL of the deployed GeneLab API, including `/api`. GitHub Pages hosts the frontend only; `server.mjs` must run separately on a Node-capable service.
+
 The expected public URL is:
 
 ```text
@@ -184,7 +209,7 @@ The Vite base is relative and hash routing is used because GitHub Pages does not
 
 ## Testing
 
-The project currently has 28 passing tests covering:
+The project currently has 30 passing tests covering:
 
 - Gene search normalization and filtering
 - NCBI response normalization and provenance

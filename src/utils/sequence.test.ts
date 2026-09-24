@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { analyzeSequence, calculateGcPercentage, reverseComplement, transcribeDna, translateRna } from './sequence';
+import { analyzeSequence, calculateGcPercentage, compareSequences, designPrimers, findOpenReadingFrames, findRestrictionSites, reverseComplement, transcribeDna, translateRna } from './sequence';
 
 describe('sequence analysis', () => {
   it('calculates DNA metrics and transformations', () => {
@@ -25,5 +25,17 @@ describe('sequence analysis', () => {
 
   it('recognizes ambiguous nucleotide FASTA sequences', () => {
     expect(analyzeSequence('>sequence\nATGNNRY')).toMatchObject({ alphabet: 'DNA', length: 7 });
+  });
+
+  it('finds ORFs, restriction sites, and primer candidates', () => {
+    const sequence = 'ATGAAAGAATTCGGATCCTAA';
+    expect(findOpenReadingFrames(sequence)).toContainEqual(expect.objectContaining({ frame: 1, start: 1 }));
+    expect(findRestrictionSites(sequence).map((site) => site.enzyme)).toEqual(['EcoRI', 'BamHI']);
+    expect(designPrimers(sequence, 8)).toHaveLength(2);
+    expect(analyzeSequence(sequence).restrictionSites).toHaveLength(2);
+  });
+
+  it('compares sequences and reports positional differences', () => {
+    expect(compareSequences('ATGC', 'ATTC')).toMatchObject({ comparedLength: 4, identityPercentage: 75, differences: [{ position: 3, reference: 'G', query: 'T' }] });
   });
 });
